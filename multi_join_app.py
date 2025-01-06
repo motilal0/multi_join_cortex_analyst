@@ -110,7 +110,7 @@ def display_content(
                     else:
                         st.dataframe(df)
 
-st.title("Cortex Analyst - Multi-Table Join")
+st.title("Cortex Analyst: Multi-Table Join")
 st.markdown(f"Semantic Model: `{FILE}`")
 
 if "messages" not in st.session_state:
